@@ -1,0 +1,284 @@
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "syscfg\ti_drivers_config.h" "syscfg\ti_utils_build_linker.cmd.exp" "syscfg\syscfg_c.rov.xs"  "syscfg\ti_drivers_config.c"  "uartecho_MSP_EXP432E401Y_nortos_ccs.out" 
+DEL /F "main_nortos.obj" "uartecho.obj" "syscfg\ti_drivers_config.obj" 
+DEL /F "main_nortos.d" "uartecho.d" "syscfg\ti_drivers_config.d" 
+RMDIR /S/Q  "syscfg\" 
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.h
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\uartecho_MSP_EXP432E401Y_nortos_ccs.out
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\main_nortos.obj
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.obj
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\main_nortos.d
+Could Not Find C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.syscfg"
+Invoking: SysConfig
+"D:/code composer/ccs/utils/sysconfig_1.17.0/sysconfig_cli.bat" -s "C:/ti/simplelink_msp432e4_sdk_4_20_00_12/.metadata/product.json" --script "C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/uartecho.syscfg" -o "syscfg" --compiler ccs
+Running script...
+Validating...
+Generating Code (uartecho.syscfg)...
+    '/ti/drivers' -> '/ti/devices/driverlib'
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_utils_build_linker.cmd.exp...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\syscfg_c.rov.xs...
+Finished building: "../uartecho.syscfg"
+ 
+Building file: "../main_nortos.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main_nortos.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../main_nortos.c"
+Finished building: "../main_nortos.c"
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+Finished building: "../uartecho.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="syscfg/ti_drivers_config.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg" --obj_directory="syscfg"  "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uartecho_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "syscfg\ti_drivers_config.h" "syscfg\ti_utils_build_linker.cmd.exp" "syscfg\syscfg_c.rov.xs"  "syscfg\ti_drivers_config.c"  "uartecho_MSP_EXP432E401Y_nortos_ccs.out" 
+DEL /F "main_nortos.obj" "uartecho.obj" "syscfg\ti_drivers_config.obj" 
+DEL /F "main_nortos.d" "uartecho.d" "syscfg\ti_drivers_config.d" 
+RMDIR /S/Q  "syscfg\" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.syscfg"
+Invoking: SysConfig
+"D:/code composer/ccs/utils/sysconfig_1.17.0/sysconfig_cli.bat" -s "C:/ti/simplelink_msp432e4_sdk_4_20_00_12/.metadata/product.json" --script "C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/uartecho.syscfg" -o "syscfg" --compiler ccs
+Running script...
+Validating...
+Generating Code (uartecho.syscfg)...
+    '/ti/drivers' -> '/ti/devices/driverlib'
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_utils_build_linker.cmd.exp...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\syscfg_c.rov.xs...
+Finished building: "../uartecho.syscfg"
+ 
+Building file: "../main_nortos.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main_nortos.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../main_nortos.c"
+Finished building: "../main_nortos.c"
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+"../uartecho.c", line 135: warning #225-D: function "sprintf" declared implicitly
+Finished building: "../uartecho.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="syscfg/ti_drivers_config.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg" --obj_directory="syscfg"  "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uartecho_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "syscfg\ti_drivers_config.h" "syscfg\ti_utils_build_linker.cmd.exp" "syscfg\syscfg_c.rov.xs"  "syscfg\ti_drivers_config.c"  "uartecho_MSP_EXP432E401Y_nortos_ccs.out" 
+DEL /F "main_nortos.obj" "uartecho.obj" "syscfg\ti_drivers_config.obj" 
+DEL /F "main_nortos.d" "uartecho.d" "syscfg\ti_drivers_config.d" 
+RMDIR /S/Q  "syscfg\" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.syscfg"
+Invoking: SysConfig
+"D:/code composer/ccs/utils/sysconfig_1.17.0/sysconfig_cli.bat" -s "C:/ti/simplelink_msp432e4_sdk_4_20_00_12/.metadata/product.json" --script "C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/uartecho.syscfg" -o "syscfg" --compiler ccs
+Running script...
+Validating...
+Generating Code (uartecho.syscfg)...
+    '/ti/drivers' -> '/ti/devices/driverlib'
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.c...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_drivers_config.h...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\ti_utils_build_linker.cmd.exp...
+Writing C:\Users\RISHIKESH\workspace_v12\uartecho_MSP_EXP432E401Y_nortos_ccs\Debug\syscfg\syscfg_c.rov.xs...
+Finished building: "../uartecho.syscfg"
+ 
+Building file: "../main_nortos.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main_nortos.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../main_nortos.c"
+Finished building: "../main_nortos.c"
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+Finished building: "../uartecho.c"
+ 
+Building file: "syscfg/ti_drivers_config.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="syscfg/ti_drivers_config.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg" --obj_directory="syscfg"  "syscfg/ti_drivers_config.c"
+Finished building: "syscfg/ti_drivers_config.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uartecho_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+Finished building: "../uartecho.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uartecho_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+Finished building: "../uartecho.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uartecho.c"
+Invoking: Arm Compiler
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source/third_party/CMSIS/Include" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" --include_path="C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos/posix" --include_path="D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uartecho.d_raw" --include_path="C:/Users/RISHIKESH/workspace_v12/uartecho_MSP_EXP432E401Y_nortos_ccs/Debug/syscfg"  "../uartecho.c"
+Finished building: "../uartecho.c"
+ 
+Building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+Invoking: Arm Linker
+"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"uartecho_MSP_EXP432E401Y_nortos_ccs.map" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/source" -i"C:/ti/simplelink_msp432e4_sdk_4_20_00_12/kernel/nortos" -i"D:/code composer/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_suppress=10063 --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uartecho_MSP_EXP432E401Y_nortos_ccs_linkInfo.xml" --entry_point=resetISR --rom_model -o "uartecho_MSP_EXP432E401Y_nortos_ccs.out" "./main_nortos.obj" "./uartecho.obj" "./syscfg/ti_drivers_config.obj" "../MSP_EXP432E401Y_NoRTOS.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432e4.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"lib/nortos_msp432e4.aem4f" -l"ti/devices/msp432e4/driverlib/lib/ccs/m4f/msp432e4_driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uartecho_MSP_EXP432E401Y_nortos_ccs.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uartecho_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\code composer\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uartecho_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****
